@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "This extension rips out elements I don't like from my commonly visited sites.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://stackoverflow.com/*", "https://stackoverflow.com/*"],
+      "js": ["stackoverflow.js"]
+    }
+  ]
+,
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}

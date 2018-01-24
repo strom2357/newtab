@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+}
+
+.layout-container {
+    margin-top: 200px;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout-container > * {
+    margin-bottom: 50px;
+}
+
+.cta-container {
+    width: 400px;
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: space-around;
+}
+
+.option-cta {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#kaizen-quote {
+    text-align: left;
+    font-size: 14px;
+}
+
+.indent1 {
+    margin-left: 20px;
+}
